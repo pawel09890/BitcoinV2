@@ -21,6 +21,6 @@ if __name__ == "__main__":
     genetic_algorithm(historical_data=historical_data, output_file=OUTPUT_ESTIMATIONS_FILE)
 
     print(f"\n✅ Wyniki estymacji zapisano do pliku {OUTPUT_ESTIMATIONS_FILE}")
-    plt.show()
+    #plt.show()
 
 

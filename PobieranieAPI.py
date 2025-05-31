@@ -10,6 +10,10 @@ def get_historical_prices():
     params = {"vs_currency": "usd", "days": "30"}
     response = requests.get(COINGECKO_API_URL, params=params)
 
+
+
+
+
     if response.status_code != 200:
         print(f"Błąd pobierania danych: {response.status_code}")
         return []

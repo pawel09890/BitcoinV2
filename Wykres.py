@@ -41,5 +41,5 @@ axes[2].set_ylabel("Cena (USD)")
 axes[2].legend()
 axes[2].tick_params(axis='x', rotation=90)
 
-plt.tight_layout()
-plt.show()
+#plt.tight_layout()
+#plt.show()
